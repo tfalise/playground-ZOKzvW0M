@@ -58,3 +58,5 @@ class Program
 }
 // }
 ```
+
+Query expressions are transformed in a sequence of extension method calls when compiled.

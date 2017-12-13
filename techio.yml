@@ -1,7 +1,8 @@
-title: .NET Core C# Project
+title: C# Professional - Linq
 plan:
 - title: Introduction to Linq
   statement: markdowns/1-Introduction.md
+  statement: markdowns/csharp-basics.md
 projects:
   csharp:
     root: /csharp-project
