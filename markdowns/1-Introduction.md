@@ -26,7 +26,7 @@ It uses a syntax close to SQL language, using keywords like `select`, `from`, `w
 
 Queries written using the query expression syntax have a **deferred execution**, which means they will be executed when the collection will be iterated, not when the query is created.
 
-```c# runnable
+```C# runnable
 // { autofold 
 using System;
 using System.Collections.Generic;
