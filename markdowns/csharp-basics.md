@@ -6,7 +6,7 @@ Answer the following question
 -[X] A
 -[X] B
 -[x] C
--[X] D
+-[X] La reponse D
 
 ?[Which visibility for a class only visible from the current Assembly​?]
 -[ ] public
