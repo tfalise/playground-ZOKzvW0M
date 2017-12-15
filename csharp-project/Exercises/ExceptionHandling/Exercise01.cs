@@ -1,4 +1,6 @@
-﻿// { autofold
+﻿using System;
+
+// { autofold
 namespace ExceptionHandling
 {
     class Exercise01
@@ -9,7 +11,7 @@ namespace ExceptionHandling
             // fix me : catch the exception
             Methods.ThatThrowsAGenericException();
         }
-        // { autofold
+// { autofold
     }
 }
 // }
