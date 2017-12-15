@@ -1,5 +1,7 @@
 # Conditional Logic in C#
 
+## Basics
+
 C# conditional logic is based on the `boolean` type, which can be either `true` or `false`.
 Conditional operations are evaluated in the execution flow, and supports multiple operators:
 
