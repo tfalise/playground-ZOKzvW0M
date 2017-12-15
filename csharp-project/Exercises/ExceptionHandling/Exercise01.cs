@@ -1,6 +1,6 @@
-﻿using System;
+﻿// { autofold
+using System;
 
-// { autofold
 namespace ExceptionHandling
 {
     class Exercise01
