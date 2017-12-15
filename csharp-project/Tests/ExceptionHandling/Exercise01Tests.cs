@@ -5,7 +5,7 @@ using NFluent;
 namespace ExceptionHandling
 {
     [TestClass]
-    class Exercise01Tests
+    public class Exercise01Tests
     {
         private bool _shouldShowHint;
         [TestMethod]
@@ -16,7 +16,7 @@ namespace ExceptionHandling
             _shouldShowHint = false;
         }
 
-        [TestCleanup()]
+        [TestCleanup]
         public void Cleanup()
         {
             if (_shouldShowHint)
