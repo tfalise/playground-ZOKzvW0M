@@ -7,7 +7,7 @@ plan:
 - title: Exception Handling
   statement: markdowns/03-ExceptionHandling.md
 - title: Execption Handling - Exercises
-  statement: markdown/exercises/03-Exercises.md
+  statement: markdowns/exercises/03-Exercises.md
 - title: OOP - Fundamentals
   statement: markdowns/04-OOPFundamentals.md
 - title: OOP - Properties & Methods
