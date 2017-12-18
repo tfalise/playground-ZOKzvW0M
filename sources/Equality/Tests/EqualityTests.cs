@@ -12,20 +12,6 @@ namespace Equality.Tests
         private bool _testFailed;
 
         [TestMethod]
-        public void CheckEqualsNullOrDifferentType()
-        {
-            _testFailed = true;
-
-            var user = new User { FirstName = "John", LastName = "Doe", DateOfBirth = new DateTime(1977, 5, 19) };
-
-            Check.That(user.Equals(null)).IsFalse();
-            Check.That(user.Equals(new object())).IsFalse();
-
-            _testFailed = false;
-        }
-
-
-        [TestMethod]
         public void CheckEquals()
         {
             _testFailed = true;
@@ -49,7 +35,7 @@ namespace Equality.Tests
             var second = new User { FirstName = "John", LastName = "Doe", DateOfBirth = new DateTime(1977, 5, 19) };
 
             Check.That(first == second).IsTrue();
-
+            
             _testFailed = false;
         }
 
