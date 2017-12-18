@@ -7,12 +7,10 @@ plan:
 - title: Exception Handling
   statement: markdowns/03-ExceptionHandling.md
 - title: Exception Handling - Exercises
-  statement: markdowns/exercises/03-Exercises.md
-- title: Exception Handling - Project
   statement: markdowns/exercises/03-Project.md
 - title: OOP - Fundamentals
   statement: markdowns/04-OOPFundamentals.md
-- title: OOP - Properties & Methods
+-- title: OOP - Properties & Methods
   statement: markdowns/05-OOPMethods.md
 - title: OOP - Constructor, Destructor, Indexer, ...
   statement: markdowns/06-OOPMethodsAdvanced.md
@@ -20,6 +18,8 @@ plan:
   statement: markdowns/07-OOPInterfaces.md
 - title: OOP - Inheritance
   statement: markdowns/08-OOPInheritance.md
+- title: Equality - Exercises
+  statement: markdowns/exercises/equality.md
 projects:
   csharp:
     root: /csharp-project
@@ -28,6 +28,11 @@ projects:
       version: 1.1.0-dotnet-1.1-sdk-msbuild
   exceptions:
     root: /sources/Exceptions
+    runner:
+      name: techio/dotnet-runner
+      version: 1.1.0-dotnet-1.1-sdk-msbuild
+  equality:
+    root: /sources/Equality
     runner:
       name: techio/dotnet-runner
       version: 1.1.0-dotnet-1.1-sdk-msbuild
