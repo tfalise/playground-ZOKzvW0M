@@ -17,4 +17,4 @@ namespace Equality
     }
 // { autofold
 }
-//
+// }

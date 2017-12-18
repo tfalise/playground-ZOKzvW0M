@@ -7,9 +7,12 @@ The following exercises will focus on implementation of proper equality between 
 The first equality implementation when comparing two objects is to override the `.Equals()` method.
 
 Implement the required code to ensure that the comparison will return true when two users have the same first name, last name and date of birth.
+
 *Note: Don't forget to make sure that your code can handle comparisons with `null` or other types correctly*
 
-@[Implement `.Equals()`]({"stubs": ["User.cs"], "command": "Exceptions.Tests.EqualityTests.CheckEquals", "project": "equality"})
+*You can use the `Object.ReferenceEquals(object a, object b)` method to do reference comparisons*
+
+@[Implement .Equals()]({"stubs": ["User.cs"], "command": "Exceptions.Tests.EqualityTests.CheckEquals", "project": "equality"})
 
 ## Implementing `==` operator
 
@@ -31,4 +34,4 @@ Add a custom implementation of `.GetHashCode` to our `User` class.
 
 *Reminder: the method override declaration is `public override int GetHashCode()`* 
 
-@[Override `.GetHashCode()`]({"stubs": ["User.cs"], "command": "Exceptions.Tests.EqualityTests.CheckGetHashCode", "project": "equality"})
+@[Override .GetHashCode()]({"stubs": ["User.cs"], "command": "Exceptions.Tests.EqualityTests.CheckGetHashCode", "project": "equality"})
