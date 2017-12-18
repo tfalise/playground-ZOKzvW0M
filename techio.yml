@@ -8,6 +8,8 @@ plan:
   statement: markdowns/03-ExceptionHandling.md
 - title: Exception Handling - Exercises
   statement: markdowns/exercises/03-Exercises.md
+- title: Exception Handling - Project
+  statement: markdowns/exercises/03-Project.md
 - title: OOP - Fundamentals
   statement: markdowns/04-OOPFundamentals.md
 - title: OOP - Properties & Methods
@@ -21,6 +23,11 @@ plan:
 projects:
   csharp:
     root: /csharp-project
+    runner:
+      name: techio/dotnet-runner
+      version: 1.1.0-dotnet-1.1-sdk-msbuild
+  exceptions:
+    root: /sources/Exceptions
     runner:
       name: techio/dotnet-runner
       version: 1.1.0-dotnet-1.1-sdk-msbuild
