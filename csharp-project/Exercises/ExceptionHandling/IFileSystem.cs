@@ -1,6 +1,6 @@
 ﻿namespace ExceptionHandling
 {
-    internal interface IFileSystem
+    public interface IFileSystem
     {
         void CreateXlsFile(string filePath);
         void WriteAllLines(string userData, string filePath);
