@@ -12,7 +12,7 @@ Implement the required code to ensure that the comparison will return true when 
 
 *You can use the `Object.ReferenceEquals(object a, object b)` method to do reference comparisons*
 
-@[Implement .Equals()]({"stubs": ["User.cs"], "command": "Exceptions.Tests.EqualityTests.CheckEquals", "project": "equality"})
+@[Implement .Equals()]({"stubs": ["User.cs"], "command": "Equality.Tests.EqualityTests.CheckEquals", "project": "equality"})
 
 ## Implementing `==` operator
 
@@ -23,7 +23,7 @@ Make sure that you implement both operators, or the code will not compile.
 
 *Reminder: the operator implementation declaration is `public static bool operator == (User left, User right)`* 
 
-@[Implement equality operators]({"stubs": ["User.cs"], "command": "Exceptions.Tests.EqualityTests.CheckEqualOperator", "project": "equality"})
+@[Implement equality operators]({"stubs": ["User.cs"], "command": "Equality.Tests.EqualityTests.CheckEqualOperator", "project": "equality"})
 
 ## Overriding `GetHashCode()`
 
@@ -34,4 +34,4 @@ Add a custom implementation of `.GetHashCode` to our `User` class.
 
 *Reminder: the method override declaration is `public override int GetHashCode()`* 
 
-@[Override .GetHashCode()]({"stubs": ["User.cs"], "command": "Exceptions.Tests.EqualityTests.CheckGetHashCode", "project": "equality"})
+@[Override .GetHashCode()]({"stubs": ["User.cs"], "command": "Equality.Tests.EqualityTests.CheckGetHashCode", "project": "equality"})
