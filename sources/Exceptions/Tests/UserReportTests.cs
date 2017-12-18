@@ -54,6 +54,7 @@ namespace Exceptions.Tests
 
             var exception = new UnauthorizedAccessException(@"Access to the path C:\TEMP\Reports\UserReport.txt is denied");
 
+            _userRepository.GetAllUsers().Returns(new List<User>());
             _fileSystem.FileExists(@"").Returns(true);
 
             _fileSystem
