@@ -10,7 +10,7 @@ plan:
   statement: markdowns/exercises/03-Project.md
 - title: OOP - Fundamentals
   statement: markdowns/04-OOPFundamentals.md
--- title: OOP - Properties & Methods
+- title: OOP - Properties & Methods
   statement: markdowns/05-OOPMethods.md
 - title: OOP - Constructor, Destructor, Indexer, ...
   statement: markdowns/06-OOPMethodsAdvanced.md
