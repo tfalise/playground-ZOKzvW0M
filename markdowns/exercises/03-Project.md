@@ -34,4 +34,10 @@ Implement these new rules:
   * The new exception must have a message "Could not create the report, check logs for more details"
   * The new exception must have a reference to the caught one
 
-  @[Wrapping in a new exception]({"stubs": ["UserReport.cs", "ILog.cs"], "command": "Exceptions.Tests.UserReportTests.CheckReturnsNewException", "project": "exceptions"})
+@[Wrapping in a new exception]({"stubs": ["UserReport.cs", "ILog.cs"], "command": "Exceptions.Tests.UserReportTests.CheckReturnsNewException", "project": "exceptions"})
+
+## All combined
+
+Before pushing our code to production, make sure that all three cases are handled correctly at the same time.
+
+@[Wrapping in a new exception]({"stubs": ["UserReport.cs", "ILog.cs"], "command": "Exceptions.Tests.UserReportTests.CheckAllTogether", "project": "exceptions"})

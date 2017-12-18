@@ -91,19 +91,27 @@ namespace Exceptions.Tests
             _testFailed = false;
         }
 
+        [TestMethod]
+        public void CheckAllTogether()
+        {
+            CheckThatExceptionsAreLogged();
+            TestInitialize();
+            CheckThatUnauthorizedAccessExceptionsAreHandled();
+            TestInitialize();
+            CheckReturnsNewException();
+        }
+
         [TestCleanup]
         public void TestCleanup()
         {
             if (_testFailed)
             {
-                TechIo.PrintMessage("Hint 💡", "hint message");
+                TechIo.PrintMessage("Hint 💡", "Make sure you catch the right type of exception !");
             }
             else
             {
                 TechIo.PrintMessage("Congratulations", "You can proceed to the next chapter");
             }
         }
-
-        
     }
 }
