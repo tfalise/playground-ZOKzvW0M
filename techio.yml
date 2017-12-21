@@ -1,28 +1,18 @@
 title: C# Professional - Basics & OOP - Exercises
 plan:
-- title: Introduction to this course
-  statement: markdowns/01-Introduction.md
 - title: Conditional Logic
   statement: markdowns/02-ConditionalLogic.md
 - title: Exception Handling
   statement: markdowns/03-ExceptionHandling.md
 - title: Exception Handling - Exercises
-  statement: markdowns/exercises/03-Project.md
-- title: OOP - Fundamentals
-  statement: markdowns/04-OOPFundamentals.md
-- title: OOP - Properties & Methods
-  statement: markdowns/05-OOPMethods.md
-- title: OOP - Constructor, Destructor, Indexer, ...
-  statement: markdowns/06-OOPMethodsAdvanced.md
-- title: OOP - Interfaces & Abstract Classes
-  statement: markdowns/07-OOPInterfaces.md
-- title: OOP - Inheritance
-  statement: markdowns/08-OOPInheritance.md
+  statement: markdowns/exercises/exceptions.md
 - title: Equality - Exercises
   statement: markdowns/exercises/equality.md
+- title: ValueTypes - Exercises
+  statement: markdowns/exercises/valuetypes.md
 projects:
-  csharp:
-    root: /csharp-project
+  valuetypes:
+    root: /sources/ValueTypes
     runner:
       name: techio/dotnet-runner
       version: 1.1.0-dotnet-1.1-sdk-msbuild
