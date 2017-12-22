@@ -31,21 +31,24 @@ public class User
 }
 // }
 
-public static void Main(string[] args)
+public class Program 
 {
-    var user = new User {
-        FirstName = "John",
-        LastName = "Doe"
-    };
+    public static void Main(string[] args)
+    {
+        var user = new User {
+            FirstName = "John",
+            LastName = "Doe"
+        };
 
-    // implict casting
-    string userAsString = user;
-    Console.WriteLine($"userAsString: {userAsString}");
+        // implict casting
+        string userAsString = user;
+        Console.WriteLine($"userAsString: {userAsString}");
 
-    // explicit casting
-    var otherUser = (User)userAsString;
-    Console.WriteLine("User:");
-    Console.WriteLine($"  First name: {otherUser.FirstName}");
-    Console.WriteLine($"  Last name: {otherUser.LastName}");
+        // explicit casting
+        var otherUser = (User)userAsString;
+        Console.WriteLine("User:");
+        Console.WriteLine($"  First name: {otherUser.FirstName}");
+        Console.WriteLine($"  Last name: {otherUser.LastName}");
+    }
 }
 ```
