@@ -56,3 +56,15 @@ public class Program
     }
 }
 ```
+
+**Exercise : Implement an implicit and explicit casting**
+
+In the following exercise, you have two classes, `Car` and `Vehicle`.
+
+The goal is to implement an implicit casting of `Car` to `Vehicle`. The casting must respect these guidelines:
+* The `Vehicle.Type` property value should be `"Car"`
+* The `Vehicle.Name` property should use the car properties to display all car information with the following format : `Brand / Model (Year) / License Plate`
+
+@[Implement implicit casting]({"stubs": ["Car.cs", "Vehicle.cs"], "command": "Casting.Tests.CarTests.CheckCastingOperators", "project": "casting"})
+
+Be careful when implementing custom casting operators. They can be useful is certain situations, but using them is not very intuitive and can be misleading.
