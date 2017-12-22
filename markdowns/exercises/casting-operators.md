@@ -26,8 +26,8 @@ public class User
         {
             return new User 
             {
-                FirstName = text.SubString(0, spaceIndex),
-                LastName = text.SubString(spaceIndex + 1)
+                FirstName = text.Substring(0, spaceIndex),
+                LastName = text.Substring(spaceIndex + 1)
             };
         }
         return new User { LastName = text };
