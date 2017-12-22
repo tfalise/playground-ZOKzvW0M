@@ -3,6 +3,10 @@
 With C#, you can define custom casting implementation between two types. This implementation will be used when casting from one type to the other in your code.
 
 ```C# runnable
+// { autofold
+using System;
+// }
+
 // User definition
 // { autofold
 public class User
