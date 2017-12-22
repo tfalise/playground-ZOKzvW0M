@@ -10,4 +10,4 @@ Consider the following classes and interfaces :
 -[ ] C
 -[ ] D
 
-[inheritance-diagram]: https://raw.githubusercontent.com/talent-agile/playground-ZOKzvW0M/images/inheritance-diagram.png "Inheritance Diagram"
+[inheritance-diagram]: https://raw.githubusercontent.com/talent-agile/playground-ZOKzvW0M/master/images/inheritance-diagram.png "Inheritance Diagram"
