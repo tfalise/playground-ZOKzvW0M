@@ -10,6 +10,8 @@ plan:
   statement: markdowns/exercises/equality.md
 - title: ValueTypes - Exercises
   statement: markdowns/exercises/valuetypes.md
+- title: Inheritance
+  statement: markdowns/04-Inheritance.md
 projects:
   valuetypes:
     root: /sources/ValueTypes
