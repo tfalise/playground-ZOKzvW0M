@@ -4,6 +4,8 @@ Consider the following classes and interfaces :
 
 ![Inheritance Diagram][inheritance-diagram]
 
+test
+
 ?[What class cannot be inherited ?]
 -[ ] A
 -[x] B
